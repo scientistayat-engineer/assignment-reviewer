@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gradewise - AI Assignment Reviewer</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav" id="nav">
+  <a class="brand" href="#/"><span class="logo">G</span> Gradewise</a>
+  <nav id="links"></nav>
+  <div class="nav-right">
+    <span id="modepill" class="pill">...</span>
+    <button id="cmdk" class="icon-btn wide" title="Quick search (Ctrl+K)">&#128269;</button>
+    <button id="help" class="icon-btn" title="Help and shortcuts (?)">?</button>
+    <button id="lang" class="icon-btn" title="Language">EN</button>
+    <button id="theme" class="icon-btn" title="Toggle theme">&#9788;</button>
+    <span id="user" class="userchip" hidden></span>
+  </div>
+</header>
+<main id="app"></main>
+<footer class="foot">Gradewise &middot; LangChain + LangGraph + LangSmith + Groq &middot; Scores are suggestions; the teacher makes the final decision.</footer>
+<div id="toast" class="toast" hidden></div>
+<div id="tip" class="tip" hidden></div>
+<canvas id="confetti"></canvas>
+<div id="overlay" class="overlay" hidden></div>
+<div id="tour" class="tour" hidden></div>
+<div id="printArea"></div>
+<script src="js/app.js"></script>
+</body>
+</html>
