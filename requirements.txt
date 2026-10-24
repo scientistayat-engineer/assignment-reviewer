@@ -1,0 +1,14 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+langchain-core
+langchain-groq
+langgraph
+langsmith
+python-dotenv
+pydantic>=2,<3
+reportlab>=4.0
+pytest
+httpx
+python-multipart
+pypdf
+python-docx
