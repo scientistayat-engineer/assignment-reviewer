@@ -22,7 +22,7 @@ Rubric-based AI scoring, a teacher approval queue, and full LangSmith tracing, b
 ![Made at SMIT](https://img.shields.io/badge/made%20at-SMIT-blue?style=flat-square)
 ![Languages](https://img.shields.io/badge/UI-English%20%7C%20%D8%A7%D8%B1%D8%AF%D9%88-orange?style=flat-square)
 
-[Features](#-features) · [Screenshots](#-screenshots) · [Quick start](#-quick-start) · [LangSmith](#-langsmith-tracing) · [API](#-api) · [Deploy](#-deployment)
+[Features](#features) · [Screenshots](#screenshots) · [Quick start](#quick-start) · [LangSmith](#langsmith-tracing) · [API](#api) · [Deployment](#deployment)
 
 </div>
 
@@ -86,6 +86,7 @@ The graph and the 4 to 6 routing rule come from the original assignment. Scores 
 
 ![LangSmith runs](docs/screenshots/langsmith-runs.png)
 ![LangSmith trace](docs/screenshots/langsmith-trace.png)
+![LangSmith teacher feedback](docs/screenshots/langsmith-feedback.png)
 
 ## Tech stack
 
